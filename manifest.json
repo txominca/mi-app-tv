@@ -1,0 +1,9 @@
+{
+  "name": "Multiview TV",
+  "version": "1.0.0",
+  "launch": {
+    "url": "index.html"
+  },
+  "permissions": ["network", "audio"],
+  "display": "fullscreen"
+}

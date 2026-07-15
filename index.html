@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiview TV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+    <div id="mosaic">
+        <!-- Puedes añadir más celdas aquí siguiendo este formato -->
+        <div class="cell focused" data-url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
+            <img src="https://images.unsplash.com/photo-1595769816263-9b910be24d5f?auto=format&fit=crop&w=800&q=80" alt="Cine">
+        </div>
+        <div class="cell" data-url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
+            <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=800&q=80" alt="Docu">
+        </div>
+        <div class="cell" data-url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
+            <img src="https://images.unsplash.com/photo-1616097970275-1e187b4ce59f?auto=format&fit=crop&w=800&q=80" alt="Sci-Fi">
+        </div>
+        <div class="cell" data-url="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80" alt="Anim">
+        </div>
+    </div>
+    <video id="video" autoplay muted></video>
+    <script src="app.js"></script>
+</body>
+</html>
